@@ -101,7 +101,7 @@ a.dd-card { display: block; text-decoration: none; color: inherit; }
 .dd-nav > * { pointer-events: auto; }
 .dd-nav.is-hidden { transform: translateY(-150%); }
 .dd-nav__in { position: relative; display: flex; align-items: center; gap: 1rem; max-width: 80rem; margin-inline: auto; padding: .4rem .5rem .4rem 1rem; min-height: 3.6rem; border: 2px solid transparent; border-radius: 999px; background: transparent; transition: background-color .25s, border-color .25s, box-shadow .25s; }
-.dd-nav.is-pill .dd-nav__in { background: color-mix(in oklab, var(--paper) 90%, transparent); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-color: var(--ink); box-shadow: var(--shadow-hard); }
+.dd-nav.is-pill .dd-nav__in { background: color-mix(in oklab, var(--paper) 98%, transparent); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-color: var(--ink); box-shadow: var(--shadow-hard); }
 .dd-logo { display: inline-flex; align-items: center; gap: .45rem; color: var(--ink); text-decoration: none; font: 600 1.7rem/1 var(--font-num); letter-spacing: -.02em; flex: none; }
 .dd-logo svg { width: 1.9rem; height: 1.9rem; }
 .dd-menu { display: flex; align-items: center; flex: 1; gap: 1rem; min-width: 0; }

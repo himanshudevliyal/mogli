@@ -65,8 +65,11 @@
     $$('a', $('.dd-menu', nav)).forEach(function (a) { a.addEventListener('click', function () { closeAll(); if (nav.classList.contains('is-open')) setMenu(false); }); });
     window.addEventListener('resize', function () { closeAll(); if (desktop()) setMenu(false); });
 
-    // Home page: the plain top bar turns into the sticky pill once the audience strip reaches it
+    // Home page: the plain top bar sits on the hero only while the page is at the very top.
+    // As soon as the visitor scrolls (or the audience strip reaches the bar) it becomes the solid pill,
+    // so the links never float over the hero artwork.
     var strip = $('#strip');
+    var wantPill = function () { return (window.pageYOffset || root.scrollTop || 0) > 24 || strip.getBoundingClientRect().top <= 72; };
     var setPill = function (on, animate) {
       if (nav.classList.contains('is-pill') === on) return;
       if (!animate || reduceQuery.matches) { nav.classList.toggle('is-pill', on); return; }
@@ -75,9 +78,9 @@
     };
     if (strip) {
       var ticking = false;
-      var check = function () { ticking = false; setPill(strip.getBoundingClientRect().top <= 72, true); };
+      var check = function () { ticking = false; setPill(wantPill(), true); };
       window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(check); } }, { passive: true });
-      setPill(strip.getBoundingClientRect().top <= 72, false);
+      setPill(wantPill(), false);
     } else if (nav.classList.contains('is-pill') && !reduceQuery.matches) {
       nav.classList.add('is-hidden');
       requestAnimationFrame(function () { requestAnimationFrame(function () { nav.classList.remove('is-hidden'); }); });
