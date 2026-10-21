@@ -2,7 +2,7 @@
 
 ## Product screenshots (real Mogli demo app)
 
-All product images are frames from a screen recording of the real Mogli demo app ("Mogli Demo Travels"), cleaned of the mouse cursor and hover tooltips. Overwrite any file with a new screenshot using the same name.
+All product images are frames from a screen recording of the real Mogli demo app ("Mogli"), cleaned of the mouse cursor and hover tooltips. Overwrite any file with a new screenshot using the same name.
 
     assets/images/dashboard.webp              Home dashboard (1896 x 864)
     assets/images/dashboard-laptop.webp       Home dashboard inside the MacBook lid (1896 x 864, ratio 2.19; the lid height is 15.1rem in css)

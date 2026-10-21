@@ -223,7 +223,6 @@ div.dd-card.dd-fcard:hover, article.dd-card.dd-fcard:hover { transform: rotate(v
   .dd-phero__in { padding-top: 3.2rem; }
   .dd-phero--legal .dd-phero__in { padding-top: 2.6rem; }
 }
-html[data-theme='dark'] .dd-phero__road::after { background-image: repeating-linear-gradient(90deg, var(--ink) 0 26px, transparent 26px 52px); }
 
 /* ---------- 16. Pricing + Contact ---------- */
 .dd-ticket { display: grid; align-content: start; gap: .6rem; height: 100%; }
@@ -274,3 +273,12 @@ html[data-theme='dark'] .dd-phero__road::after { background-image: repeating-lin
 @media (max-width: 575.98px) {
   .dd-form__grid { grid-template-columns: 1fr; }
 }
+
+/* ---------- 17. About ---------- */
+.dd-facts { --c: var(--note); max-width: 46rem; margin-inline: auto; display: grid; gap: 1.2rem; }
+.dd-facts:hover { transform: rotate(var(--tilt)); box-shadow: var(--shadow-hard); }
+.dd-facts__list { display: grid; gap: .8rem; padding-left: 1.4rem; }
+.dd-facts__list li { position: relative; line-height: 1.6; }
+.dd-facts__list li::before { content: ''; position: absolute; left: -1.4rem; top: .55em; width: .6rem; height: .6rem; border: 2px solid var(--ink); border-radius: 50%; background: var(--primary); }
+.dd-legal__sec em { font-style: normal; font-weight: 600; background: color-mix(in oklab, var(--primary) 45%, transparent); padding: 0 .25em; border-radius: .3em; }
+.dd-card.dd-facts { --tilt: 0deg; }

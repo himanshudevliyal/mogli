@@ -1,6 +1,5 @@
 /* =====================================================================
    Mogli — doodle.js   (all pages)
-   1  theme toggle (light paper / dark chalkboard)
    2  navigation: dropdown panels, mobile menu, bar -> pill on the home page
    3  FAQ accordion, "#" placeholder links
    4  smooth scroll (Lenis)
@@ -14,26 +13,6 @@
   var $ = function (s, c) { return (c || d).querySelector(s); };
   var $$ = function (s, c) { return Array.prototype.slice.call((c || d).querySelectorAll(s)); };
   var reduceQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-
-  /* ---------- 1. Theme ---------- */
-  function initTheme() {
-    var btn = $('.dd-theme');
-    if (!btn) return;
-    var sync = function () {
-      var dark = root.getAttribute('data-theme') === 'dark';
-      btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
-      btn.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
-      var meta = $('meta[name="theme-color"]');
-      if (meta) meta.setAttribute('content', dark ? '#1d3a33' : '#f8f3e2');
-    };
-    btn.addEventListener('click', function () {
-      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      root.setAttribute('data-theme', next);
-      try { localStorage.setItem('mogli-theme', next); } catch (e) {}
-      sync();
-    });
-    sync();
-  }
 
   /* ---------- 2. Navigation ---------- */
   function initNav() {
@@ -437,7 +416,7 @@
   }
 
   function boot() {
-    initTheme(); initNav(); initFaq(); initLinks(); initContact(); initSmooth();
+    initNav(); initFaq(); initLinks(); initContact(); initSmooth();
     if (window.gsap && window.ScrollTrigger) initMotion();
     else root.classList.remove('js');
   }
