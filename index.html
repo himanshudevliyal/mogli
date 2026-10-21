@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mogli — Travel management software for agencies and tour operators</title>
+  <meta name="description" content="Mogli brings your travel business together: customer enquiries, custom itineraries, bookings, payments and growth in one place.">
+  <meta name="theme-color" content="#f8f3e2">
+  <script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('mogli-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+  <link rel="preload" href="assets/fonts/caveat-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/geist-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="css/doodle.css" rel="stylesheet">
+</head>
+<body class="dd" id="top">
+  <a class="dd-skip" href="#main">Skip to content</a>
+  <svg class="dd-boil-defs" aria-hidden="true" focusable="false"><filter id="dd-boil" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="0" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.5"/></filter></svg>
+  <header class="dd-nav" id="ddNav">
+    <nav class="dd-nav__in" aria-label="Primary">
+      <a class="dd-logo" href="index.html" aria-label="Mogli home"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M4 25 L11 10 L16 19 L21 10 L28 25" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="6" r="2.5" fill="currentColor"/></svg><span>mogli</span></a>
+      <button class="dd-burger" type="button" aria-expanded="false" aria-controls="ddMenu" aria-label="Open menu"><span></span></button>
+      <div class="dd-menu" id="ddMenu">
+        <ul class="dd-links">
+          <li class="dd-item"><button class="dd-link" type="button" aria-expanded="false" aria-haspopup="true">Product <i class="bi bi-chevron-down" aria-hidden="true"></i></button><div class="dd-panel dd-panel--sm"><ul class="dd-plist"><li><a class="dd-pi" href="features/auto-lead-capture/"><span class="dd-pi__ic"><i class="bi bi-inbox" aria-hidden="true"></i></span><span><b>Enquiry inbox</b><small>Capture and track every lead</small></span></a></li><li><a class="dd-pi" href="features/smart-itinerary-builder/"><span class="dd-pi__ic"><i class="bi bi-map" aria-hidden="true"></i></span><span><b>Itinerary builder</b><small>Day-wise plans and packages</small></span></a></li><li><a class="dd-pi" href="features/smart-tour-calendar/"><span class="dd-pi__ic"><i class="bi bi-calendar-check" aria-hidden="true"></i></span><span><b>Bookings</b><small>Confirmations, vouchers, suppliers</small></span></a></li><li><a class="dd-pi" href="features/real-time-payment-tracking/"><span class="dd-pi__ic"><i class="bi bi-wallet2" aria-hidden="true"></i></span><span><b>Payments</b><small>Links, instalments, reminders</small></span></a></li></ul></div></li>
+          <li class="dd-item dd-item--mega"><button class="dd-link" type="button" aria-expanded="false" aria-haspopup="true">Solutions <i class="bi bi-chevron-down" aria-hidden="true"></i></button><div class="dd-panel dd-panel--mega dd-panel--two"><div class="dd-pcol"><p class="dd-ph">Who we work with</p><ul class="dd-plist dd-plist--two"><li><a class="dd-pi" href="solutions-for/dmcs/"><span class="dd-pi__ic"><i class="bi bi-geo-alt" aria-hidden="true"></i></span><span><b>DMCs</b><small>Quotes, contracts and operations in one system</small></span></a></li><li><a class="dd-pi" href="solutions-for/international-inbound-tour-operators/"><span class="dd-pi__ic"><i class="bi bi-box-arrow-in-down" aria-hidden="true"></i></span><span><b>International Inbound Tour Operators</b><small>Serve overseas agents without the chaos</small></span></a></li><li><a class="dd-pi" href="solutions-for/outbound-tour-operators/"><span class="dd-pi__ic"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></span><span><b>Outbound Tour Operators</b><small>Multi-country trips with margins protected</small></span></a></li><li><a class="dd-pi" href="solutions-for/b2b-hotel-consolidators/"><span class="dd-pi__ic"><i class="bi bi-building" aria-hidden="true"></i></span><span><b>B2B Hotel Consolidators</b><small>Rates, inventory and channels in one place</small></span></a></li><li><a class="dd-pi" href="solutions-for/global-travel-agents/"><span class="dd-pi__ic"><i class="bi bi-globe2" aria-hidden="true"></i></span><span><b>Global Travel Agents</b><small>Quote and collect across countries</small></span></a></li><li><a class="dd-pi" href="solutions-for/hospitality-industry/"><span class="dd-pi__ic"><i class="bi bi-house-door" aria-hidden="true"></i></span><span><b>Hospitality Industry</b><small>Hotels, resorts and stays on one system</small></span></a></li></ul></div><div class="dd-pcol dd-pcol--alt"><p class="dd-ph">What we solve for</p><ul class="dd-plist"><li><a class="dd-pi" href="features/auto-lead-capture/"><span class="dd-pi__ic"><i class="bi bi-inbox" aria-hidden="true"></i></span><span><b>Leads &amp; enquiries</b><small>One inbox for every source</small></span></a></li><li><a class="dd-pi" href="solutions-for/dmcs/#z-quote"><span class="dd-pi__ic"><i class="bi bi-map" aria-hidden="true"></i></span><span><b>Quotes &amp; itineraries</b><small>Priced plans, margin in view</small></span></a></li><li><a class="dd-pi" href="solutions-for/dmcs/#z-suppliers"><span class="dd-pi__ic"><i class="bi bi-diagram-3" aria-hidden="true"></i></span><span><b>Suppliers &amp; contracts</b><small>Rates, seasons and validity</small></span></a></li><li><a class="dd-pi" href="solutions-for/dmcs/#z-payments"><span class="dd-pi__ic"><i class="bi bi-wallet2" aria-hidden="true"></i></span><span><b>Payments &amp; accounting</b><small>Paid, pending and overdue</small></span></a></li></ul></div></div></li>
+          <li class="dd-item dd-item--mega"><button class="dd-link" type="button" aria-expanded="false" aria-haspopup="true">Features <i class="bi bi-chevron-down" aria-hidden="true"></i></button><div class="dd-panel dd-panel--mega dd-panel--three"><div class="dd-pcol"><p class="dd-ph">CRM &amp; Sales Automation</p><ul class="dd-plist"><li><a class="dd-pi" href="features/auto-lead-capture/"><span class="dd-pi__ic"><i class="bi bi-inbox" aria-hidden="true"></i></span><span><b>Auto Lead Capture</b><small>Every enquiry in one list</small></span></a></li><li><a class="dd-pi" href="features/auto-lead-distribution/"><span class="dd-pi__ic"><i class="bi bi-diagram-2" aria-hidden="true"></i></span><span><b>Auto Lead Distribution</b><small>Right lead, right person</small></span></a></li><li><a class="dd-pi" href="features/follow-ups-and-reminders/"><span class="dd-pi__ic"><i class="bi bi-bell" aria-hidden="true"></i></span><span><b>Advanced Follow-ups &amp; Reminders</b><small>Never forget a follow-up</small></span></a></li><li><a class="dd-pi" href="features/real-time-reports/"><span class="dd-pi__ic"><i class="bi bi-graph-up" aria-hidden="true"></i></span><span><b>Real-Time Reports</b><small>Sales, profit and operations</small></span></a></li></ul><p class="dd-ph">Smart Itinerary Builder</p><ul class="dd-plist"><li><a class="dd-pi" href="features/smart-itinerary-builder/"><span class="dd-pi__ic"><i class="bi bi-map" aria-hidden="true"></i></span><span><b>Smart Itinerary Builder</b><small>Day-wise plans and quotes</small></span></a></li><li><a class="dd-pi" href="features/pricing-and-markup/"><span class="dd-pi__ic"><i class="bi bi-tag" aria-hidden="true"></i></span><span><b>Pricing &amp; Mark-up</b><small>Cost, margin and profit per trip</small></span></a></li></ul></div><div class="dd-pcol"><p class="dd-ph">Booking &amp; Reservation</p><ul class="dd-plist"><li><a class="dd-pi" href="features/smart-tour-calendar/"><span class="dd-pi__ic"><i class="bi bi-calendar3" aria-hidden="true"></i></span><span><b>Smart Tour Calendar</b><small>Every trip, day by day</small></span></a></li><li><a class="dd-pi" href="features/check-in-check-out-reports/"><span class="dd-pi__ic"><i class="bi bi-door-open" aria-hidden="true"></i></span><span><b>Check-in / Check-out Reports</b><small>Arrivals and departures, ready</small></span></a></li><li><a class="dd-pi" href="features/shared-departures/"><span class="dd-pi__ic"><i class="bi bi-people" aria-hidden="true"></i></span><span><b>Shared Departures</b><small>Group services, organised</small></span></a></li></ul><p class="dd-ph">Payment &amp; Collection Tracking</p><ul class="dd-plist"><li><a class="dd-pi" href="features/real-time-payment-tracking/"><span class="dd-pi__ic"><i class="bi bi-wallet2" aria-hidden="true"></i></span><span><b>Real-Time Payment Tracking</b><small>Paid, pending and overdue</small></span></a></li><li><a class="dd-pi" href="features/proforma-invoice/"><span class="dd-pi__ic"><i class="bi bi-file-earmark-text" aria-hidden="true"></i></span><span><b>Proforma Invoice</b><small>Invoices from the booking</small></span></a></li><li><a class="dd-pi" href="features/suppliers-ledger/"><span class="dd-pi__ic"><i class="bi bi-journal-text" aria-hidden="true"></i></span><span><b>Suppliers Ledger</b><small>What you owe every supplier</small></span></a></li></ul></div><div class="dd-pcol dd-pcol--alt"><p class="dd-ph">Supplier &amp; Contracting Management</p><ul class="dd-plist"><li><a class="dd-pi" href="features/bulk-rate-import/"><span class="dd-pi__ic"><i class="bi bi-cloud-upload" aria-hidden="true"></i></span><span><b>Bulk Rate Import</b><small>Upload and update in bulk</small></span></a></li><li><a class="dd-pi" href="features/smart-price-handling/"><span class="dd-pi__ic"><i class="bi bi-currency-exchange" aria-hidden="true"></i></span><span><b>Smart Price Handling</b><small>Rates and availability, night by night</small></span></a></li><li><a class="dd-pi" href="features/channel-management/"><span class="dd-pi__ic"><i class="bi bi-diagram-3" aria-hidden="true"></i></span><span><b>Channel Management</b><small>Every channel in sync</small></span></a></li></ul><p class="dd-ph">Administration &amp; Security</p><ul class="dd-plist"><li><a class="dd-pi" href="features/user-management-and-roles/"><span class="dd-pi__ic"><i class="bi bi-person-gear" aria-hidden="true"></i></span><span><b>User Management &amp; Roles</b><small>The right access for every person</small></span></a></li></ul></div></div></li>
+          <li class="dd-item"><a class="dd-link" href="#blog">Resources</a></li>
+          <li class="dd-item"><a class="dd-link" href="pricing.html">Pricing</a></li>
+        </ul>
+        <div class="dd-actions">
+          <button class="dd-theme" type="button" aria-label="Switch to dark theme" aria-pressed="false"><i class="bi bi-moon-stars-fill" aria-hidden="true"></i><i class="bi bi-sun-fill" aria-hidden="true"></i></button>
+          <a class="dd-btn dd-btn--sm" href="contact.html?topic=demo"><i class="bi bi-play-fill" aria-hidden="true"></i> Book a Demo</a>
+          <a class="dd-btn dd-btn--sm dd-btn--primary" href="contact.html">Get Started</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="dd-hero" id="hero" aria-label="Welcome to Mogli">
+      <svg class="dd-scene" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+<g class="boil stroke-doodle-ink" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<g transform="translate(1330 330)"><g class="rt-rays" fill="none"><path d="M0 -74 L0 -98" transform="rotate(0)"/><path d="M0 -74 L0 -98" transform="rotate(36)"/><path d="M0 -74 L0 -98" transform="rotate(72)"/><path d="M0 -74 L0 -98" transform="rotate(108)"/><path d="M0 -74 L0 -98" transform="rotate(144)"/><path d="M0 -74 L0 -98" transform="rotate(180)"/><path d="M0 -74 L0 -98" transform="rotate(216)"/><path d="M0 -74 L0 -98" transform="rotate(252)"/><path d="M0 -74 L0 -98" transform="rotate(288)"/><path d="M0 -74 L0 -98" transform="rotate(324)"/></g><circle class="fill-doodle-sun" r="56"/><path fill="none" d="M-22 -8 q7 -9 14 0 M8 -8 q7 -9 14 0 M-18 14 Q0 32 18 14"/><circle class="fill-doodle-pink" cx="-30" cy="10" r="7" stroke-width="0"/><circle class="fill-doodle-pink" cx="30" cy="10" r="7" stroke-width="0"/></g>
+<g class="rt-cloud" transform="translate(160 330) scale(1)"><path class="fill-doodle-paper" d="M0 0 Q-14 -42 28 -44 Q40 -76 82 -60 Q114 -82 134 -44 Q176 -44 164 0 Z"/></g><g class="rt-cloud" transform="translate(980 260) scale(0.8)"><path class="fill-doodle-paper" d="M0 0 Q-14 -42 28 -44 Q40 -76 82 -60 Q114 -82 134 -44 Q176 -44 164 0 Z"/></g><g class="rt-cloud" transform="translate(1440 470) scale(0.6)"><path class="fill-doodle-paper" d="M0 0 Q-14 -42 28 -44 Q40 -76 82 -60 Q114 -82 134 -44 Q176 -44 164 0 Z"/></g>
+<g class="rt-birds" fill="none" stroke-width="3.5"><path class="rt-bird" d="M520 300 q12 -12 24 0 q12 -12 24 0"/><path class="rt-bird" d="M580 270 q10 -10 20 0 q10 -10 20 0"/><path class="rt-bird" d="M1100 360 q10 -10 20 0 q10 -10 20 0"/></g>
+<path id="rt-flight" class="rt-trail" fill="none" stroke-width="3" d="M-60 470 C 120 380 260 310 360 380 C 430 430 380 500 330 460 C 280 420 360 340 480 350 S 760 410 960 330"/>
+<g class="rt-paper-plane" transform="translate(480 350) rotate(-8)"><path class="fill-doodle-paper" d="M-20 -12 L24 0 L-20 12 L-11 0 Z" stroke-width="3"/><path fill="none" d="M-11 0 L24 0" stroke-width="2.5"/></g>
+<g class="rt-horizon"><g transform="translate(0 0)">
+<g transform="translate(130 664)"><path class="fill-doodle-sky" d="M-130 0 L-50 -130 L-5 -75 L55 -165 L150 0 Z"/><path class="fill-doodle-paper" d="M55 -165 L30 -126 L45 -132 L58 -118 L70 -132 L82 -122 Z"/></g>
+<g transform="translate(430 664)"><path class="fill-doodle-sand" d="M-95 0 L0 -135 L95 0 Z"/><path fill="none" d="M0 -135 L22 0 M-48 -68 L60 -68 M-72 -34 L80 -34" stroke-width="2.5"/></g>
+<g transform="translate(700 664)" fill="none"><path d="M-52 0 L-12 -170 L-6 -225 L6 -225 L12 -170 L52 0"/><path d="M-30 0 Q0 -55 30 0 M-36 -70 L36 -70 M-16 -150 L16 -150 M0 -225 L0 -255"/><path d="M-40 -40 L30 -70 M40 -40 L-30 -70 M-25 -100 L18 -150 M25 -100 L-18 -150" stroke-width="2"/></g>
+<g transform="translate(950 664)"><path class="stroke-doodle-ink" d="M0 0 Q14 -80 -6 -150" fill="none" stroke-width="8"/><g class="fill-doodle-grass-dark" transform="translate(-6 -150)"><path d="M0 0 C 30 -30 70 -24 92 6 C 60 -6 30 -4 0 0 Z"/><path d="M0 0 C -30 -30 -70 -24 -92 6 C -60 -6 -30 -4 0 0 Z"/><path d="M0 0 C 10 -40 40 -60 70 -52 C 40 -40 20 -24 0 0 Z"/><path d="M0 0 C -10 -40 -40 -60 -70 -52 C -40 -40 -20 -24 0 0 Z"/></g><path class="stroke-doodle-ink" d="M70 0 Q78 -50 64 -92" fill="none" stroke-width="6"/><g class="fill-doodle-grass" transform="translate(64 -92)"><path d="M0 0 C 20 -22 50 -16 64 4 C 40 -4 20 -3 0 0 Z"/><path d="M0 0 C -20 -22 -50 -16 -64 4 C -40 -4 -20 -3 0 0 Z"/><path d="M0 0 C 6 -28 26 -40 48 -36 C 28 -28 14 -16 0 0 Z"/></g></g>
+<g transform="translate(1210 664)"><rect class="fill-doodle-van-trim" x="-72" y="-86" width="144" height="86"/><path class="fill-doodle-van-trim" d="M-42 -86 Q-50 -150 0 -178 Q50 -150 42 -86 Z"/><path fill="none" d="M0 -178 L0 -196 M-18 0 L-18 -40 Q0 -64 18 -40 L18 0 M-96 0 L-96 -140 M96 0 L96 -140"/><path class="fill-doodle-van-trim" d="M-104 -140 Q-96 -160 -88 -140 Z M88 -140 Q96 -160 104 -140 Z"/></g>
+<g transform="translate(1460 664)"><path class="fill-doodle-pink" d="M-32 0 L-20 -112 L20 -112 L32 0 Z"/><path class="fill-doodle-van-trim" d="M-26 -112 L0 -140 L26 -112 Z"/><g class="rt-blades" transform="translate(0 -118)"><g class="fill-doodle-van-trim"><rect x="-6" y="-78" width="12" height="70" rx="3"/><rect x="-6" y="8" width="12" height="70" rx="3"/><rect x="8" y="-6" width="70" height="12" rx="3"/><rect x="-78" y="-6" width="70" height="12" rx="3"/></g><circle class="fill-doodle-ink" r="6"/></g></g>
+</g><g transform="translate(1600 0)">
+<g transform="translate(130 664)"><path class="fill-doodle-sky" d="M-130 0 L-50 -130 L-5 -75 L55 -165 L150 0 Z"/><path class="fill-doodle-paper" d="M55 -165 L30 -126 L45 -132 L58 -118 L70 -132 L82 -122 Z"/></g>
+<g transform="translate(430 664)"><path class="fill-doodle-sand" d="M-95 0 L0 -135 L95 0 Z"/><path fill="none" d="M0 -135 L22 0 M-48 -68 L60 -68 M-72 -34 L80 -34" stroke-width="2.5"/></g>
+<g transform="translate(700 664)" fill="none"><path d="M-52 0 L-12 -170 L-6 -225 L6 -225 L12 -170 L52 0"/><path d="M-30 0 Q0 -55 30 0 M-36 -70 L36 -70 M-16 -150 L16 -150 M0 -225 L0 -255"/><path d="M-40 -40 L30 -70 M40 -40 L-30 -70 M-25 -100 L18 -150 M25 -100 L-18 -150" stroke-width="2"/></g>
+<g transform="translate(950 664)"><path class="stroke-doodle-ink" d="M0 0 Q14 -80 -6 -150" fill="none" stroke-width="8"/><g class="fill-doodle-grass-dark" transform="translate(-6 -150)"><path d="M0 0 C 30 -30 70 -24 92 6 C 60 -6 30 -4 0 0 Z"/><path d="M0 0 C -30 -30 -70 -24 -92 6 C -60 -6 -30 -4 0 0 Z"/><path d="M0 0 C 10 -40 40 -60 70 -52 C 40 -40 20 -24 0 0 Z"/><path d="M0 0 C -10 -40 -40 -60 -70 -52 C -40 -40 -20 -24 0 0 Z"/></g><path class="stroke-doodle-ink" d="M70 0 Q78 -50 64 -92" fill="none" stroke-width="6"/><g class="fill-doodle-grass" transform="translate(64 -92)"><path d="M0 0 C 20 -22 50 -16 64 4 C 40 -4 20 -3 0 0 Z"/><path d="M0 0 C -20 -22 -50 -16 -64 4 C -40 -4 -20 -3 0 0 Z"/><path d="M0 0 C 6 -28 26 -40 48 -36 C 28 -28 14 -16 0 0 Z"/></g></g>
+<g transform="translate(1210 664)"><rect class="fill-doodle-van-trim" x="-72" y="-86" width="144" height="86"/><path class="fill-doodle-van-trim" d="M-42 -86 Q-50 -150 0 -178 Q50 -150 42 -86 Z"/><path fill="none" d="M0 -178 L0 -196 M-18 0 L-18 -40 Q0 -64 18 -40 L18 0 M-96 0 L-96 -140 M96 0 L96 -140"/><path class="fill-doodle-van-trim" d="M-104 -140 Q-96 -160 -88 -140 Z M88 -140 Q96 -160 104 -140 Z"/></g>
+<g transform="translate(1460 664)"><path class="fill-doodle-pink" d="M-32 0 L-20 -112 L20 -112 L32 0 Z"/><path class="fill-doodle-van-trim" d="M-26 -112 L0 -140 L26 -112 Z"/><g class="rt-blades" transform="translate(0 -118)"><g class="fill-doodle-van-trim"><rect x="-6" y="-78" width="12" height="70" rx="3"/><rect x="-6" y="8" width="12" height="70" rx="3"/><rect x="8" y="-6" width="70" height="12" rx="3"/><rect x="-78" y="-6" width="70" height="12" rx="3"/></g><circle class="fill-doodle-ink" r="6"/></g></g>
+</g></g>
+<path class="fill-doodle-grass" d="M-20 664 Q 400 640 800 662 T 1620 660 L1620 920 L-20 920 Z"/>
+<g class="rt-pin" transform="translate(1035 646)"><path class="fill-doodle-pink" d="M0 0 C-30 -40 -30 -82 0 -82 C30 -82 30 -40 0 0 Z"/><circle class="fill-doodle-paper" cx="0" cy="-54" r="11" stroke-width="3"/><text x="30" y="-62" font-size="40" font-weight="700" class="fill-doodle-ink" stroke-width="0">goa!</text></g>
+<rect class="fill-doodle-road" x="-20" y="700" width="1640" height="112"/>
+<path class="rt-dashes stroke-doodle-line" fill="none" stroke-width="7" stroke-dasharray="44 26" d="M-20 756 L1620 756"/>
+<g class="rt-verge"><g transform="translate(0 0)"><g transform="translate(60 848)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/><g transform="translate(26 -18)"><circle class="fill-doodle-pink" r="9" stroke-width="2.5"/><circle class="fill-doodle-sun" r="3.5" stroke-width="0"/></g></g><g transform="translate(260 862)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/></g><g transform="translate(470 848)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/></g><g transform="translate(650 862)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/><g transform="translate(26 -18)"><circle class="fill-doodle-pink" r="9" stroke-width="2.5"/><circle class="fill-doodle-sun" r="3.5" stroke-width="0"/></g></g><g transform="translate(860 848)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/></g><g transform="translate(1080 862)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/></g><g transform="translate(1270 848)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/><g transform="translate(26 -18)"><circle class="fill-doodle-pink" r="9" stroke-width="2.5"/><circle class="fill-doodle-sun" r="3.5" stroke-width="0"/></g></g><g transform="translate(1480 862)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/></g></g><g transform="translate(1600 0)"><g transform="translate(60 848)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/><g transform="translate(26 -18)"><circle class="fill-doodle-pink" r="9" stroke-width="2.5"/><circle class="fill-doodle-sun" r="3.5" stroke-width="0"/></g></g><g transform="translate(260 862)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/></g><g transform="translate(470 848)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/></g><g transform="translate(650 862)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/><g transform="translate(26 -18)"><circle class="fill-doodle-pink" r="9" stroke-width="2.5"/><circle class="fill-doodle-sun" r="3.5" stroke-width="0"/></g></g><g transform="translate(860 848)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/></g><g transform="translate(1080 862)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/></g><g transform="translate(1270 848)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/><g transform="translate(26 -18)"><circle class="fill-doodle-pink" r="9" stroke-width="2.5"/><circle class="fill-doodle-sun" r="3.5" stroke-width="0"/></g></g><g transform="translate(1480 862)"><path fill="none" class="stroke-doodle-grass-dark" d="M-12 0 Q-10 -18 -16 -26 M0 0 Q0 -22 4 -32 M12 0 Q12 -16 18 -24"/></g></g></g>
+<g transform="translate(620 591)"><g class="rt-van"><g><g class="fill-doodle-paper"><circle class="rt-puff" cx="6" cy="138" r="11"/><circle class="rt-puff" cx="6" cy="138" r="11"/><circle class="rt-puff" cx="6" cy="138" r="11"/></g><g fill="none" stroke-width="3"><path class="rt-speed" d="M-60 60 L-20 60"/><path class="rt-speed" d="M-80 92 L-24 92"/><path class="rt-speed" d="M-56 122 L-18 122"/></g><g class="rt-van-body">
+<path fill="none" d="M60 10 L60 0 M290 10 L290 0 M48 0 L304 0"/>
+<rect class="fill-doodle-orange" x="70" y="-52" width="92" height="52" rx="9"/><path fill="none" d="M100 -52 L100 -62 L132 -62 L132 -52"/><circle class="fill-doodle-sun" cx="96" cy="-26" r="10" stroke-width="2.5"/><path fill="none" d="M120 -40 L150 -40 M120 -26 L150 -26" stroke-width="2.5"/>
+<rect class="fill-doodle-teal" x="168" y="-38" width="74" height="38" rx="8"/><path fill="none" d="M205 -38 L205 0" stroke-width="2.5"/>
+<circle class="fill-doodle-van-trim" cx="272" cy="-21" r="21"/><path class="fill-doodle-pink" d="M272 -42 Q260 -21 272 0 Q284 -21 272 -42 Z" stroke-width="2.5"/>
+<ellipse class="fill-doodle-pink" cx="178" cy="-66" rx="132" ry="11"/><path fill="none" d="M70 -66 L286 -66" class="stroke-doodle-van-trim" stroke-width="2.5"/>
+<path class="fill-doodle-van" d="M20 150 L20 40 Q20 10 55 10 L290 10 Q325 10 340 50 L362 112 Q368 150 340 150 Z"/>
+<path class="fill-doodle-van-trim" d="M20 96 L360 96 L365 112 L20 112 Z"/><path fill="none" d="M200 112 L200 146 M182 124 L194 124"/>
+<circle class="fill-doodle-sun" cx="352" cy="128" r="8" stroke-width="3"/><rect class="fill-doodle-van-trim" x="326" y="142" width="44" height="10" rx="5" stroke-width="3"/><rect class="fill-doodle-van-trim" x="10" y="142" width="32" height="10" rx="5" stroke-width="3"/>
+<g class="fill-doodle-glass"><rect x="40" y="26" width="70" height="56" rx="10"/><rect x="124" y="26" width="72" height="56" rx="10"/><rect x="208" y="26" width="64" height="56" rx="10"/><path d="M285 26 L318 26 Q328 28 334 50 L344 82 L285 82 Z"/></g>
+<path class="fill-doodle-hair" d="M220 64 Q218 36 240 36 Q262 36 260 64 L262 82 L218 82 Z" stroke-width="3"/><path class="fill-doodle-pink" d="M222 82 Q240 70 258 82 Z" stroke-width="3"/><circle class="fill-doodle-skin-a" cx="240" cy="58" r="16" stroke-width="3"/>
+<g class="fill-doodle-ink" stroke-width="0"><circle cx="234" cy="56" r="6"/><circle cx="247" cy="56" r="6"/></g><path fill="none" d="M236 56 L245 56 M234 66 Q240 71 246 66" stroke-width="2.5"/>
+<path class="fill-doodle-teal" d="M290 82 Q308 70 326 82 Z" stroke-width="3"/><circle class="fill-doodle-skin-b" cx="308" cy="60" r="16" stroke-width="3"/><path class="fill-doodle-orange" d="M292 54 Q294 38 308 38 Q322 38 324 54 Z" stroke-width="3"/><path fill="none" d="M320 52 L336 55" stroke-width="4"/><circle class="fill-doodle-ink" cx="314" cy="60" r="2.5" stroke-width="0"/><path fill="none" d="M306 68 Q312 73 318 68 M322 82 Q332 68 342 82" stroke-width="2.5"/>
+<path class="fill-doodle-teal" d="M140 82 Q160 70 180 82 Z" stroke-width="3"/><circle class="fill-doodle-skin-b" cx="160" cy="58" r="17" stroke-width="3"/><path class="fill-doodle-hair" d="M143 54 Q146 36 160 38 Q174 36 177 54 Q170 46 160 47 Q150 46 143 54 Z" stroke-width="3"/>
+<g class="fill-doodle-ink" stroke-width="0"><circle cx="154" cy="58" r="2.5"/><circle cx="166" cy="58" r="2.5"/></g><path class="fill-doodle-pink" d="M152 65 Q160 74 168 65 Z" stroke-width="2.5"/>
+<g transform="translate(178 76)"><g class="rt-arm"><path fill="none" d="M0 0 Q30 -14 40 -52" stroke-width="14"/><path fill="none" class="stroke-doodle-skin-b" d="M0 0 Q30 -14 40 -52" stroke-width="8"/><path class="fill-doodle-skin-b" d="M32 -54 Q30 -70 34 -78 Q37 -82 39 -76 L40 -70 L41 -84 Q44 -88 46 -84 L46 -70 L49 -80 Q52 -83 53 -78 L52 -64 L56 -70 Q60 -71 58 -64 Q54 -50 44 -46 Q34 -46 32 -54 Z" stroke-width="2.5"/></g></g>
+<g transform="translate(-4 -4)"><circle class="fill-doodle-dog" cx="62" cy="48" r="21" stroke-width="3"/><ellipse class="fill-doodle-van-trim" cx="46" cy="56" rx="13" ry="9" stroke-width="3"/><circle class="fill-doodle-ink" cx="37" cy="53" r="4.5" stroke-width="0"/><circle class="fill-doodle-ink" cx="60" cy="42" r="3" stroke-width="0"/><path class="fill-doodle-pink" d="M46 63 Q46 78 54 76 Q58 70 54 64 Z" stroke-width="2.5"/><ellipse class="rt-ear fill-doodle-dog-dark" cx="76" cy="44" rx="8" ry="17" stroke-width="3"/></g>
+<g fill="none"><rect x="40" y="26" width="70" height="56" rx="10"/><rect x="124" y="26" width="72" height="56" rx="10"/><rect x="208" y="26" width="64" height="56" rx="10"/><path d="M285 26 L318 26 Q328 28 334 50 L344 82 L285 82 Z"/></g>
+</g><g transform="translate(85 150)"><g class="rt-wheel"><circle class="fill-doodle-ink" r="34"/><circle class="fill-doodle-van-trim" r="16" stroke-width="3"/><path fill="none" d="M0 -16 L0 16 M-16 0 L16 0" stroke-width="3"/></g></g><g transform="translate(280 150)"><g class="rt-wheel"><circle class="fill-doodle-ink" r="34"/><circle class="fill-doodle-van-trim" r="16" stroke-width="3"/><path fill="none" d="M0 -16 L0 16 M-16 0 L16 0" stroke-width="3"/></g></g><g class="rt-bubble" transform="translate(-90 -178)"><path class="fill-doodle-paper" d="M28 0 L212 0 Q240 0 240 32 Q240 64 212 64 L150 64 L176 96 L118 64 L28 64 Q0 64 0 32 Q0 0 28 0 Z" stroke-width="3.5"/><text class="rt-line fill-doodle-ink" x="120" y="43" text-anchor="middle" font-size="32" font-weight="700" stroke-width="0">are we there yet?</text><text class="rt-line fill-doodle-ink" x="120" y="43" text-anchor="middle" font-size="32" font-weight="700" stroke-width="0">beach time!!</text><text class="rt-line fill-doodle-ink" x="120" y="43" text-anchor="middle" font-size="32" font-weight="700" stroke-width="0">best trip ever</text><text class="rt-line fill-doodle-ink" x="120" y="43" text-anchor="middle" font-size="32" font-weight="700" stroke-width="0">ice cream stop?</text></g></g></g></g>
+</g>
+</svg>
+      <div class="dd-hero__ui">
+        <p class="dd-hero__eyebrow" data-hero>family trips, sorted &#10038;</p>
+        <h1 class="dd-wordmark" aria-label="Mogli"><span class="ch" aria-hidden="true">m</span><span class="ch" aria-hidden="true">o</span><span class="ch" aria-hidden="true">g</span><span class="ch" aria-hidden="true">l</span><span class="ch" aria-hidden="true">i</span><svg class="dd-wordmark__line" viewBox="0 0 400 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M4 12 Q40 2 80 12 T160 12 T240 12 T320 12 T396 10"/></svg><svg class="dd-spark" viewBox="0 0 80 80" aria-hidden="true" focusable="false"><path class="rt-spark" d="M40 8 L40 26 M40 54 L40 72 M8 40 L26 40 M54 40 L72 40"/><path class="rt-spark" d="M18 18 L28 28 M52 52 L62 62 M62 18 L52 28 M18 62 L28 52"/></svg></h1>
+        <div class="dd-note" data-note>
+          <h2>Pack the kids. We&rsquo;ll plan the rest.</h2>
+          <p>Leads, day-wise quotes, bookings, vouchers and payments for travel agents, DMCs and tour operators. One record per trip, from the first call to the postcard home.</p>
+          <div class="dd-note__cta"><a class="dd-btn dd-btn--primary" href="#demo">Start your organization</a><a class="dd-btn" href="#" data-placeholder-link>Sign in</a></div>
+        </div>
+        <aside class="dd-pass" data-pass aria-label="Sample trip shown as a boarding pass">
+          <div class="dd-pass__main">
+            <p class="dd-pass__label">Boarding pass &middot; Q-0217 &middot; Sample</p>
+            <p class="dd-pass__title">The Sharmas go to Goa</p>
+            <div class="dd-pass__route"><span>DEL</span><span class="dash"></span><i class="bi bi-airplane-fill" aria-hidden="true"></i><span class="dash"></span><span>GOI</span></div>
+            <dl class="dd-pass__meta"><div><dt>Dates</dt><dd>12&ndash;17 Dec</dd></div><div><dt>Travellers</dt><dd>2A &middot; 2C &middot; &#128054;</dd></div><div><dt>Stay</dt><dd>5 nights</dd></div></dl>
+            <div class="dd-barcode" aria-hidden="true"><span style="width:6px"></span><span style="width:2px"></span><span style="width:4px"></span><span style="width:2px"></span><span style="width:6px"></span><span style="width:4px"></span><span style="width:2px"></span><span style="width:2px"></span><span style="width:6px"></span><span style="width:2px"></span><span style="width:4px"></span><span style="width:6px"></span><span style="width:2px"></span><span style="width:4px"></span><span style="width:2px"></span><span style="width:2px"></span><span style="width:6px"></span><span style="width:4px"></span><span style="width:2px"></span><span style="width:6px"></span><span style="width:2px"></span><span style="width:4px"></span><span style="width:4px"></span><span style="width:2px"></span><span style="width:6px"></span></div>
+          </div>
+          <div class="dd-pass__stub"><div><p>Total</p><p class="dd-pass__total">&#8377;<span data-total="124800">1,24,800</span></p></div><span class="dd-chip">Paid 40%</span></div>
+          <span class="dd-stamp" aria-hidden="true">BOOKED!</span>
+        </aside>
+      </div>
+    </section>
+    <section class="dd-strip" id="strip" aria-label="Who Mogli is built for">
+      <div class="dd-strip__track"><ul class="dd-strip__set"><li>Travel Agencies</li><li>Tour Operators</li><li>DMCs</li><li>Sales Teams</li><li>Operations Teams</li><li>Accounts Teams</li><li>International Inbound Tour Operators</li><li>Outbound Tour Operators</li><li>B2B Hotel Consolidators</li><li>Global Travel Agents</li><li>Hospitality</li></ul><ul class="dd-strip__set" aria-hidden="true"><li>Travel Agencies</li><li>Tour Operators</li><li>DMCs</li><li>Sales Teams</li><li>Operations Teams</li><li>Accounts Teams</li><li>International Inbound Tour Operators</li><li>Outbound Tour Operators</li><li>B2B Hotel Consolidators</li><li>Global Travel Agents</li><li>Hospitality</li></ul><ul class="dd-strip__set" aria-hidden="true"><li>Travel Agencies</li><li>Tour Operators</li><li>DMCs</li><li>Sales Teams</li><li>Operations Teams</li><li>Accounts Teams</li><li>International Inbound Tour Operators</li><li>Outbound Tour Operators</li><li>B2B Hotel Consolidators</li><li>Global Travel Agents</li><li>Hospitality</li></ul><ul class="dd-strip__set" aria-hidden="true"><li>Travel Agencies</li><li>Tour Operators</li><li>DMCs</li><li>Sales Teams</li><li>Operations Teams</li><li>Accounts Teams</li><li>International Inbound Tour Operators</li><li>Outbound Tour Operators</li><li>B2B Hotel Consolidators</li><li>Global Travel Agents</li><li>Hospitality</li></ul></div>
+    </section>
+    <section class="dd-sec dd-how" id="how" aria-labelledby="how-title">
+      <div class="dd-wrap">
+        <header class="dd-head" data-reveal><p class="dd-eyebrow">From first message to final payment</p><h2 id="how-title" class="dd-title"><span>Software shaped around how travel teams work</span><svg class="dd-squig" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 12 Q28 2 52 12 T102 12 T152 12 T202 12 T252 12 T297 11"/></svg></h2><p>Mogli replaces spreadsheets and scattered chats with structured, streamlined operations.</p></header>
+        <div class="dd-road" data-road>
+          <div class="dd-road__line" aria-hidden="true"><span class="dd-road__fill"></span></div>
+          <span class="dd-car" aria-hidden="true"><i class="bi bi-car-front-fill"></i></span>
+          <article class="dd-step c-sky" data-step>
+            <span class="dd-step__node">1</span>
+            <div class="dd-card dd-step__card">
+              <p class="dd-eyebrow">Capture</p>
+              <h3>Never miss an enquiry</h3>
+              <p>Capture leads from calls, WhatsApp, web forms and email. Each one gets a status, an owner and a follow-up reminder.</p>
+              <figure class="dd-step__shot"><img src="assets/images/stages/capture.webp" width="1896" height="864" loading="lazy" alt="Mogli leads list with every enquiry, its source, owner and stage"></figure>
+              <a class="dd-step__more" href="features/auto-lead-capture/">Explore Enquiries <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+          <article class="dd-step c-pink" data-step>
+            <span class="dd-step__node">2</span>
+            <div class="dd-card dd-step__card">
+              <p class="dd-eyebrow">Plan</p>
+              <h3>Plan every trip, day by day</h3>
+              <p>Build day-wise itineraries and reusable packages, price them in seconds and share a polished proposal.</p>
+              <figure class="dd-step__shot"><img src="assets/images/stages/plan.webp" width="1896" height="864" loading="lazy" alt="Mogli itinerary planner with day-wise plan and pricing"></figure>
+              <a class="dd-step__more" href="features/smart-itinerary-builder/">Explore Itineraries <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+          <article class="dd-step c-grass" data-step>
+            <span class="dd-step__node">3</span>
+            <div class="dd-card dd-step__card">
+              <p class="dd-eyebrow">Book</p>
+              <h3>Every booking, at a glance</h3>
+              <p>Track hotels, flights and transfers for every trip, with confirmation status your whole team can see.</p>
+              <figure class="dd-step__shot"><img src="assets/images/stages/book.webp" width="1896" height="864" loading="lazy" alt="Mogli bookings with confirmation status for each supplier"></figure>
+              <a class="dd-step__more" href="features/smart-tour-calendar/">Explore Bookings <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+          <article class="dd-step c-orange" data-step>
+            <span class="dd-step__node">4</span>
+            <div class="dd-card dd-step__card">
+              <p class="dd-eyebrow">Collect</p>
+              <h3>Know who has paid</h3>
+              <p>Send payment links, record instalments and see who has paid, who is partial and what is still due.</p>
+              <figure class="dd-step__shot"><img src="assets/images/stages/collect.webp" width="1896" height="864" loading="lazy" alt="Mogli payments showing who has paid and what is due"></figure>
+              <a class="dd-step__more" href="features/real-time-payment-tracking/">Explore Payments <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="dd-sec" id="features" aria-labelledby="features-title">
+      <div class="dd-wrap">
+        <header class="dd-head" data-reveal><p class="dd-eyebrow">All in one place</p><h2 id="features-title" class="dd-title"><span>One software for every part of your travel business</span><svg class="dd-squig" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 12 Q28 2 52 12 T102 12 T152 12 T202 12 T252 12 T297 11"/></svg></h2><p>Enquiries, itineraries, bookings, payments, suppliers and reports, all connected, so your team stops switching between tools.</p></header>
+        <div class="dd-fgrid" data-fgrid>
+          <a class="dd-card dd-fcard" href="features/auto-lead-capture/"><span class="dd-fcard__ic"><i class="bi bi-inbox" aria-hidden="true"></i></span><h3>Auto Lead Capture</h3><p>Every enquiry in one list.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/auto-lead-distribution/"><span class="dd-fcard__ic"><i class="bi bi-diagram-2" aria-hidden="true"></i></span><h3>Auto Lead Distribution</h3><p>Right lead, right person.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/follow-ups-and-reminders/"><span class="dd-fcard__ic"><i class="bi bi-bell" aria-hidden="true"></i></span><h3>Advanced Follow-ups &amp; Reminders</h3><p>Never forget a follow-up.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/real-time-reports/"><span class="dd-fcard__ic"><i class="bi bi-graph-up" aria-hidden="true"></i></span><h3>Real-Time Reports</h3><p>Sales, profit and operations.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/smart-itinerary-builder/"><span class="dd-fcard__ic"><i class="bi bi-map" aria-hidden="true"></i></span><h3>Smart Itinerary Builder</h3><p>Day-wise plans and quotes.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/pricing-and-markup/"><span class="dd-fcard__ic"><i class="bi bi-tag" aria-hidden="true"></i></span><h3>Pricing &amp; Mark-up</h3><p>Cost, margin and profit per trip.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/smart-tour-calendar/"><span class="dd-fcard__ic"><i class="bi bi-calendar3" aria-hidden="true"></i></span><h3>Smart Tour Calendar</h3><p>Every trip, day by day.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/check-in-check-out-reports/"><span class="dd-fcard__ic"><i class="bi bi-door-open" aria-hidden="true"></i></span><h3>Check-in / Check-out Reports</h3><p>Arrivals and departures, ready.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/shared-departures/"><span class="dd-fcard__ic"><i class="bi bi-people" aria-hidden="true"></i></span><h3>Shared Departures</h3><p>Group services, organised.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/real-time-payment-tracking/"><span class="dd-fcard__ic"><i class="bi bi-wallet2" aria-hidden="true"></i></span><h3>Real-Time Payment Tracking</h3><p>Paid, pending and overdue.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/proforma-invoice/"><span class="dd-fcard__ic"><i class="bi bi-file-earmark-text" aria-hidden="true"></i></span><h3>Proforma Invoice</h3><p>Invoices from the booking.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/suppliers-ledger/"><span class="dd-fcard__ic"><i class="bi bi-journal-text" aria-hidden="true"></i></span><h3>Suppliers Ledger</h3><p>What you owe every supplier.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/bulk-rate-import/"><span class="dd-fcard__ic"><i class="bi bi-cloud-upload" aria-hidden="true"></i></span><h3>Bulk Rate Import</h3><p>Upload and update in bulk.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/smart-price-handling/"><span class="dd-fcard__ic"><i class="bi bi-currency-exchange" aria-hidden="true"></i></span><h3>Smart Price Handling</h3><p>Rates and availability, night by night.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/channel-management/"><span class="dd-fcard__ic"><i class="bi bi-diagram-3" aria-hidden="true"></i></span><h3>Channel Management</h3><p>Every channel in sync.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+          <a class="dd-card dd-fcard" href="features/user-management-and-roles/"><span class="dd-fcard__ic"><i class="bi bi-person-gear" aria-hidden="true"></i></span><h3>User Management &amp; Roles</h3><p>The right access for every person.</p><span class="dd-fcard__go">Explore &rarr;</span></a>
+        </div>
+      </div>
+    </section>
+    <section class="dd-sec dd-band" id="showcase" aria-labelledby="showcase-title">
+      <div class="dd-wrap dd-band__grid">
+        <div class="dd-band__copy" data-reveal>
+          <p class="dd-eyebrow">Workflows</p>
+          <h2 class="dd-title" id="showcase-title"><span>Keep every trip on track</span><svg class="dd-squig" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 12 Q28 2 52 12 T102 12 T152 12 T202 12 T252 12 T297 11"/></svg></h2>
+          <p>Enquiries, itineraries, bookings, payments, suppliers and reports, all connected. An accepted quote becomes a booking, with no re-typing.</p>
+          <ul class="dd-ticks">
+            <li><b>One record per customer</b><span>Enquiry, itinerary, bookings and payments stay together, so anyone on the team can pick up where another left off.</span></li>
+            <li><b>One flow, start to finish</b><span>A booking creates tasks and payment reminders, with no re-typing.</span></li>
+            <li><b>One set of numbers</b><span>Sales, collections and supplier dues come from the same data, so reports always agree.</span></li>
+          </ul>
+        </div>
+        <div class="dd-window" data-reveal role="img" aria-label="Sample enquiries board: cards move from Enquiry to Quote sent, Confirmed and Payment due">
+          <div class="dd-window__bar" aria-hidden="true"><i></i><i></i><i></i><span>Enquiries board &middot; sample data</span></div>
+          <div class="dd-board" data-board aria-hidden="true"><div class="dd-board__col" data-col><h4>Enquiry</h4><div class="dd-bcard c-sky" data-bcard><b>Riya Sharma</b><span>Kerala</span></div><div class="dd-bcard c-pink" data-bcard><b>Kabir Anand</b><span>Bali</span></div></div><div class="dd-board__col" data-col><h4>Quote sent</h4><div class="dd-bcard c-grass" data-bcard><b>Meera Nair</b><span>Rajasthan</span></div></div><div class="dd-board__col" data-col><h4>Confirmed</h4><div class="dd-bcard c-orange" data-bcard><b>Dev Malhotra</b><span>Dubai</span></div></div><div class="dd-board__col" data-col><h4>Payment due</h4><div class="dd-bcard c-teal" data-bcard><b>Ananya Rao</b><span>Goa</span></div></div></div>
+        </div>
+      </div>
+    </section>
+    <section class="dd-sec" id="solutions" aria-labelledby="solutions-title">
+      <div class="dd-wrap">
+        <header class="dd-head" data-reveal><p class="dd-eyebrow">Solutions</p><h2 id="solutions-title" class="dd-title"><span>Pick your kind of travel business</span><svg class="dd-squig" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 12 Q28 2 52 12 T102 12 T152 12 T202 12 T252 12 T297 11"/></svg></h2><p>Mogli fits how DMCs, tour operators, agents and hotels actually work.</p></header>
+        <div class="dd-tags" data-tags>
+          <a class="dd-tag" href="solutions-for/dmcs/"><svg class="dd-tag__string" viewBox="0 0 36 62" aria-hidden="true" focusable="false"><path d="M18 62 Q4 46 18 32 Q32 18 18 2"/></svg><h3>DMCs</h3><p>Quotes, contracts and operations in one system.</p><span class="dd-tag__go">See how &rarr;</span></a>
+          <a class="dd-tag" href="solutions-for/international-inbound-tour-operators/"><svg class="dd-tag__string" viewBox="0 0 36 62" aria-hidden="true" focusable="false"><path d="M18 62 Q4 46 18 32 Q32 18 18 2"/></svg><h3>International Inbound Tour Operators</h3><p>Serve overseas agents without the chaos.</p><span class="dd-tag__go">See how &rarr;</span></a>
+          <a class="dd-tag" href="solutions-for/outbound-tour-operators/"><svg class="dd-tag__string" viewBox="0 0 36 62" aria-hidden="true" focusable="false"><path d="M18 62 Q4 46 18 32 Q32 18 18 2"/></svg><h3>Outbound Tour Operators</h3><p>Multi-country trips with margins protected.</p><span class="dd-tag__go">See how &rarr;</span></a>
+          <a class="dd-tag" href="solutions-for/b2b-hotel-consolidators/"><svg class="dd-tag__string" viewBox="0 0 36 62" aria-hidden="true" focusable="false"><path d="M18 62 Q4 46 18 32 Q32 18 18 2"/></svg><h3>B2B Hotel Consolidators</h3><p>Rates, inventory and channels in one place.</p><span class="dd-tag__go">See how &rarr;</span></a>
+          <a class="dd-tag" href="solutions-for/global-travel-agents/"><svg class="dd-tag__string" viewBox="0 0 36 62" aria-hidden="true" focusable="false"><path d="M18 62 Q4 46 18 32 Q32 18 18 2"/></svg><h3>Global Travel Agents</h3><p>Quote and collect across countries.</p><span class="dd-tag__go">See how &rarr;</span></a>
+          <a class="dd-tag" href="solutions-for/hospitality-industry/"><svg class="dd-tag__string" viewBox="0 0 36 62" aria-hidden="true" focusable="false"><path d="M18 62 Q4 46 18 32 Q32 18 18 2"/></svg><h3>Hospitality Industry</h3><p>Hotels, resorts and stays on one system.</p><span class="dd-tag__go">See how &rarr;</span></a>
+        </div>
+      </div>
+    </section>
+    <section class="dd-sec dd-collab" id="collaboration" aria-labelledby="collab-title">
+      <div class="dd-wrap dd-collab__grid">
+        <div class="dd-phonewrap" data-phone>
+          <div class="dd-phone" aria-hidden="true">
+            <div class="dd-phone__screen">
+              <div class="dd-phone__bar"><i>MN</i><span>Munnar trip</span></div>
+              <div class="dd-chat">
+                <div class="dd-bub dd-bub--in"><small>Meera Nair &middot; 2m</small>Can we keep the Munnar stay on day 2 and hold the same budget?</div>
+                <div class="dd-bub dd-bub--out"><small>Aarav Mehta &middot; just now</small>Done. Munnar first, then the houseboat. Sending the quote now.</div>
+              </div>
+              <div class="dd-phone__input">Reply in thread</div>
+            </div>
+          </div>
+          <span class="dd-pill dd-pill--1 c-grass" data-pill><i class="bi bi-inbox" aria-hidden="true"></i>New enquiry assigned</span>
+          <span class="dd-pill dd-pill--2 c-pink" data-pill><i class="bi bi-bell" aria-hidden="true"></i>Remind in 2 days</span>
+          <span class="dd-pill dd-pill--3 c-orange" data-pill><i class="bi bi-wallet2" aria-hidden="true"></i>Instalment recorded</span>
+        </div>
+        <div class="dd-collab__copy" data-reveal>
+          <p class="dd-eyebrow">Collaboration</p>
+          <h2 class="dd-title" id="collab-title"><span>Your team, in every enquiry</span><svg class="dd-squig" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 12 Q28 2 52 12 T102 12 T152 12 T202 12 T252 12 T297 11"/></svg></h2>
+          <p>Collaboration brings your team into every enquiry, so nobody has to ask who said what.</p>
+          <ul class="dd-ticks">
+            <li><b>Reply in thread</b><span>Keep the conversation on the enquiry it belongs to.</span></li>
+            <li><b>An owner on every enquiry</b><span>Each enquiry has a status, an owner and a follow-up reminder.</span></li>
+            <li><b>Reminders that do not slip</b><span>Follow up on a quote in 2 days and nudge customers whose payments are overdue.</span></li>
+            <li><b>The right access for each role</b><span>Give sales, operations and accounts the access they need.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="dd-sec dd-trust" id="trust" aria-labelledby="trust-title">
+      <div class="dd-wrap">
+        <header class="dd-head" data-reveal><p class="dd-eyebrow">Built for travel businesses</p><h2 id="trust-title" class="dd-title"><span>Why teams settle in quickly</span><svg class="dd-squig" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 12 Q28 2 52 12 T102 12 T152 12 T202 12 T252 12 T297 11"/></svg></h2><p>Everything Your Travel Business Needs. Nothing You Don’t.</p></header>
+        <div class="dd-trust__grid">
+          <div class="dd-trust__cards"><div class="dd-card c-sun" data-trust><i class="bi bi-lightning-charge" aria-hidden="true"></i><h3>Live within days</h3><p>Most teams are working in Mogli within days.</p></div><div class="dd-card c-grass" data-trust><i class="bi bi-file-earmark-spreadsheet" aria-hidden="true"></i><h3>Your real data on day one</h3><p>Import customer lists and open enquiries from a spreadsheet instead of starting with a blank workspace.</p></div><div class="dd-card c-pink" data-trust><i class="bi bi-person-lock" aria-hidden="true"></i><h3>The right access for everyone</h3><p>Give sales, operations and accounts the access they need, so each person sees their own work first.</p></div><div class="dd-card c-orange" data-trust><i class="bi bi-123" aria-hidden="true"></i><h3>One set of numbers</h3><p>Sales, collections and supplier dues come from the same data, so reports always agree.</p></div></div>
+          <div data-reveal><svg class="dd-suitcase boil" viewBox="0 0 320 340" aria-hidden="true" focusable="false" data-suitcase>
+          <path class="s-ink" fill="none" stroke-width="9" d="M112 78 V50 Q112 30 132 30 H188 Q208 30 208 50 V78" style="stroke:var(--ink)"/>
+          <rect x="30" y="76" width="260" height="230" rx="28" fill="var(--teal)" style="stroke:var(--ink);stroke-width:4"/>
+          <path d="M96 76 V306 M224 76 V306" style="stroke:var(--ink);stroke-width:4;fill:none" opacity=".55"/>
+          <g class="stk" transform="translate(70 118) rotate(-8)"><rect width="104" height="42" rx="10" fill="var(--sun)" style="stroke:var(--ink);stroke-width:3.5"/><text x="52" y="30" text-anchor="middle" font-size="27" fill="var(--ink)">Kerala</text></g>
+          <g class="stk" transform="translate(178 150) rotate(7)"><rect width="88" height="42" rx="10" fill="var(--pink)" style="stroke:var(--ink);stroke-width:3.5"/><text x="44" y="30" text-anchor="middle" font-size="27" fill="var(--ink)">Bali</text></g>
+          <g class="stk" transform="translate(52 190) rotate(5)"><rect width="96" height="42" rx="10" fill="var(--note)" style="stroke:var(--ink);stroke-width:3.5"/><text x="48" y="30" text-anchor="middle" font-size="27" fill="var(--ink)">Dubai</text></g>
+          <g class="stk" transform="translate(176 232) rotate(-6)"><rect width="84" height="42" rx="10" fill="var(--grass)" style="stroke:var(--ink);stroke-width:3.5"/><text x="42" y="30" text-anchor="middle" font-size="27" fill="var(--ink)">Goa</text></g>
+          <g class="lock" style="transform-origin:160px 316px"><path d="M138 316 V298 Q138 278 160 278 Q182 278 182 298 V316" fill="none" style="stroke:var(--ink);stroke-width:7;stroke-linecap:round"/><rect x="128" y="312" width="64" height="40" rx="10" fill="var(--sun)" style="stroke:var(--ink);stroke-width:4"/><circle cx="160" cy="330" r="5" style="fill:var(--ink)"/></g>
+        </svg></div>
+        </div>
+      </div>
+    </section>
+    <section class="dd-sec" id="faq" aria-labelledby="faq-title">
+      <div class="dd-wrap">
+        <header class="dd-head" data-reveal><p class="dd-eyebrow">Questions, answered</p><h2 id="faq-title" class="dd-title"><span>Frequently asked questions</span><svg class="dd-squig" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 12 Q28 2 52 12 T102 12 T152 12 T202 12 T252 12 T297 11"/></svg></h2></header>
+        <ul class="dd-faq__list" data-reveal>
+          <li class="dd-faq__item" data-faq>
+            <h3><button class="dd-faq__q" type="button" id="fq1" aria-expanded="false" aria-controls="fa1"><span>Who is Mogli built for?</span><span class="dd-faq__plus" aria-hidden="true"><i class="bi bi-plus-lg"></i></span></button></h3>
+            <div class="dd-faq__a" id="fa1" role="region" aria-labelledby="fq1"><div><p>Mogli is made for travel agencies, tour operators and the sales and operations teams inside them: anyone who turns customer enquiries into itineraries, bookings and payments.</p></div></div>
+          </li>
+          <li class="dd-faq__item" data-faq>
+            <h3><button class="dd-faq__q" type="button" id="fq2" aria-expanded="false" aria-controls="fa2"><span>Can we bring in our existing customers and enquiries?</span><span class="dd-faq__plus" aria-hidden="true"><i class="bi bi-plus-lg"></i></span></button></h3>
+            <div class="dd-faq__a" id="fa2" role="region" aria-labelledby="fq2"><div><p>Yes. You can import customer lists and open enquiries from a spreadsheet, so your team starts with its real data on day one instead of a blank workspace.</p></div></div>
+          </li>
+          <li class="dd-faq__item" data-faq>
+            <h3><button class="dd-faq__q" type="button" id="fq3" aria-expanded="false" aria-controls="fa3"><span>How do payments and instalments work?</span><span class="dd-faq__plus" aria-hidden="true"><i class="bi bi-plus-lg"></i></span></button></h3>
+            <div class="dd-faq__a" id="fa3" role="region" aria-labelledby="fq3"><div><p>Every booking carries its own payment schedule. Record instalments, send payment links and see who has paid, who is partial and what is still due, all in one view.</p></div></div>
+          </li>
+          <li class="dd-faq__item" data-faq>
+            <h3><button class="dd-faq__q" type="button" id="fq4" aria-expanded="false" aria-controls="fa4"><span>Can different team members see different things?</span><span class="dd-faq__plus" aria-hidden="true"><i class="bi bi-plus-lg"></i></span></button></h3>
+            <div class="dd-faq__a" id="fa4" role="region" aria-labelledby="fq4"><div><p>Yes. Give sales, operations and accounts the access they need, so each person sees their own work first and the rest of the trip when they need it.</p></div></div>
+          </li>
+          <li class="dd-faq__item" data-faq>
+            <h3><button class="dd-faq__q" type="button" id="fq5" aria-expanded="false" aria-controls="fa5"><span>How long does it take to get started?</span><span class="dd-faq__plus" aria-hidden="true"><i class="bi bi-plus-lg"></i></span></button></h3>
+            <div class="dd-faq__a" id="fa5" role="region" aria-labelledby="fq5"><div><p>Most teams are working in Mogli within days. Book a demo and we will set up a sample workspace with your own itineraries so you can see it before you commit.</p></div></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="dd-sec" id="blog" aria-labelledby="blog-title">
+      <div class="dd-wrap">
+        <header class="dd-head" data-reveal><p class="dd-eyebrow">Resources</p><h2 id="blog-title" class="dd-title"><span>Secrets of a Modern Travel Business, Revealed</span><svg class="dd-squig" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 12 Q28 2 52 12 T102 12 T152 12 T202 12 T252 12 T297 11"/></svg></h2></header>
+        <div class="dd-blog__grid">
+          <article class="dd-card dd-post" data-post><div class="dd-post__img"><img src="assets/images/blog/webinar.webp" width="612" height="390" loading="lazy" alt=""><time class="dd-post__date" datetime="2026-11-07">7 Nov</time></div><span class="dd-post__tag">Ideas</span><h3><a href="#" data-placeholder-link>How to Quote a Trip in Under a Minute</a></h3></article>
+          <article class="dd-card dd-post" data-post><div class="dd-post__img"><img src="assets/images/blog/guide.webp" width="612" height="390" loading="lazy" alt=""><time class="dd-post__date" datetime="2026-11-07">7 Nov</time></div><span class="dd-post__tag">Ideas</span><h3><a href="#" data-placeholder-link>Your Ultimate Guide to Running a DMC Without Excel</a></h3></article>
+          <article class="dd-card dd-post" data-post><div class="dd-post__img"><img src="assets/images/blog/podcast.webp" width="612" height="390" loading="lazy" alt=""><time class="dd-post__date" datetime="2026-11-07">7 Nov</time></div><span class="dd-post__tag">Ideas</span><h3><a href="#" data-placeholder-link>Supplier Contracts That Never Expire Unnoticed</a></h3></article>
+          <article class="dd-card dd-post" data-post><div class="dd-post__img"><img src="assets/images/blog/featured.webp" width="1200" height="693" loading="lazy" alt=""><time class="dd-post__date" datetime="2026-11-13">13 Nov</time></div><span class="dd-post__tag">Smart</span><h3><a href="#" data-placeholder-link>Why Modern Travel Agencies Are Moving to One Connected Platform</a></h3></article>
+        </div>
+      </div>
+    </section>
+    <section class="dd-final" id="demo" aria-labelledby="final-title">
+      <div class="dd-wrap">
+        <div class="dd-postcard" data-postcard>
+          <div class="dd-postcard__l">
+            <h2 id="final-title">Wish you were here!</h2>
+            <p>See Mogli with your own itineraries. Book a short walkthrough and we will set up a sample workspace for your agency.</p>
+            <svg class="dd-beach boil" viewBox="0 0 280 150" aria-hidden="true" focusable="false"><circle cx="220" cy="38" r="22" fill="var(--sun)" class="s-ink"/><path d="M0 120 Q35 100 70 120 T140 120 T210 120 T280 120 V150 H0 Z" fill="var(--sky)" class="s-ink"/><path d="M0 138 Q35 122 70 138 T140 138 T210 138 T280 138" fill="none" class="s-ink" stroke-width="3"/><path d="M60 118 L86 54" class="s-ink"/><path d="M86 54 Q40 40 30 70 Q60 56 86 54 Z" fill="var(--pink)" class="s-ink"/><path d="M86 54 Q130 40 142 72 Q112 56 86 54 Z" fill="var(--teal)" class="s-ink"/><path d="M86 54 Q86 36 96 28" fill="none" class="s-ink" stroke-width="3"/></svg>
+          </div>
+          <div class="dd-postcard__r">
+            <svg class="dd-postmark" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><circle cx="50" cy="50" r="44"/><circle cx="50" cy="50" r="32"/><path d="M6 50 Q16 42 26 50 T46 50 T66 50 T86 50 T96 50" style="transform:translateY(34px)"/><text x="50" y="46" text-anchor="middle">MOGLI</text><text x="50" y="60" text-anchor="middle" font-size="10">2026</text></svg>
+            <div class="dd-stampbox" data-stampbox aria-hidden="true"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M4 25 L11 10 L16 19 L21 10 L28 25" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="6" r="2.5" fill="currentColor"/></svg><span>mogli</span></div>
+            <div class="dd-address"><p>To: your whole travel team</p><p>From: Mogli, with love</p></div>
+            <div class="dd-postcard__cta"><a class="dd-btn dd-btn--primary" href="contact.html?topic=demo">Book a Demo <i class="bi bi-arrow-right" aria-hidden="true"></i></a><a class="dd-btn" href="#how">Explore Mogli</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="dd-footer">
+    <div class="dd-hill" aria-hidden="true">
+      <svg viewBox="0 0 1600 60" preserveAspectRatio="none" focusable="false"><path d="M0 60 V30 Q100 6 200 28 T400 26 T600 30 T800 24 T1000 30 T1200 26 T1400 30 T1600 24 V60 Z" fill="color-mix(in oklab, var(--grass) 32%, var(--paper))" stroke="var(--ink)" stroke-width="3" vector-effect="non-scaling-stroke"/></svg>
+      <svg class="dd-hill__van" viewBox="0 0 120 64" focusable="false"><use href="#dd-van-mini"/></svg>
+      <svg width="0" height="0" style="position:absolute" focusable="false"><defs><symbol id="dd-van-mini" viewBox="0 0 120 64"><path d="M6 46 V24 Q6 14 16 14 H72 Q82 14 88 24 L96 32 H108 Q116 32 116 40 V46 Z" fill="var(--orange)" stroke="var(--ink)" stroke-width="3.5" stroke-linejoin="round"/><rect x="16" y="20" width="20" height="14" rx="3" fill="var(--sky)" stroke="var(--ink)" stroke-width="3"/><rect x="42" y="20" width="20" height="14" rx="3" fill="var(--sky)" stroke="var(--ink)" stroke-width="3"/><path d="M68 20 H76 L84 32 H68 Z" fill="var(--sky)" stroke="var(--ink)" stroke-width="3" stroke-linejoin="round"/><g class="wh"><circle cx="30" cy="48" r="9" fill="var(--ink)"/><circle cx="30" cy="48" r="3.5" fill="var(--paper)"/></g><g class="wh"><circle cx="92" cy="48" r="9" fill="var(--ink)"/><circle cx="92" cy="48" r="3.5" fill="var(--paper)"/></g></symbol></defs></svg>
+    </div>
+    <div class="dd-wrap dd-footer__in">
+      <div class="dd-footer__grid">
+        <div>
+          <a class="dd-logo" href="index.html" aria-label="Mogli home"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M4 25 L11 10 L16 19 L21 10 L28 25" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="6" r="2.5" fill="currentColor"/></svg><span>mogli</span></a>
+          <p class="dd-footer__tag">Travel management software for agencies, tour operators and DMCs.</p>
+        </div>
+        <nav aria-label="Features" class="dd-footer__features"><h3>Features</h3><ul><li><a href="features/auto-lead-capture/">Auto Lead Capture</a></li><li><a href="features/auto-lead-distribution/">Auto Lead Distribution</a></li><li><a href="features/follow-ups-and-reminders/">Advanced Follow-ups &amp; Reminders</a></li><li><a href="features/real-time-reports/">Real-Time Reports</a></li><li><a href="features/smart-itinerary-builder/">Smart Itinerary Builder</a></li><li><a href="features/pricing-and-markup/">Pricing &amp; Mark-up</a></li><li><a href="features/smart-tour-calendar/">Smart Tour Calendar</a></li><li><a href="features/check-in-check-out-reports/">Check-in / Check-out Reports</a></li><li><a href="features/shared-departures/">Shared Departures</a></li><li><a href="features/real-time-payment-tracking/">Real-Time Payment Tracking</a></li><li><a href="features/proforma-invoice/">Proforma Invoice</a></li><li><a href="features/suppliers-ledger/">Suppliers Ledger</a></li><li><a href="features/bulk-rate-import/">Bulk Rate Import</a></li><li><a href="features/smart-price-handling/">Smart Price Handling</a></li><li><a href="features/channel-management/">Channel Management</a></li><li><a href="features/user-management-and-roles/">User Management &amp; Roles</a></li></ul></nav>
+        <nav aria-label="Solutions"><h3>Solutions</h3><ul><li><a href="solutions-for/dmcs/">DMCs</a></li><li><a href="solutions-for/international-inbound-tour-operators/">International Inbound Tour Operators</a></li><li><a href="solutions-for/outbound-tour-operators/">Outbound Tour Operators</a></li><li><a href="solutions-for/b2b-hotel-consolidators/">B2B Hotel Consolidators</a></li><li><a href="solutions-for/global-travel-agents/">Global Travel Agents</a></li><li><a href="solutions-for/hospitality-industry/">Hospitality Industry</a></li></ul></nav>
+        <nav aria-label="Company"><h3>Company</h3><ul><li><a href="#" data-placeholder-link>About</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="contact.html">Contact</a></li><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="#" data-placeholder-link>Terms of service</a></li></ul></nav>
+      </div>
+      <p class="dd-footer__copy"><span>&copy; 2026 Mogli. All rights reserved.</span><span class="dd-footer__safe">safe travels &#10038;</span><a href="privacy-policy.html">Privacy Policy</a></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/DrawSVGPlugin.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/MotionPathPlugin.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/Flip.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.4/dist/lenis.min.js" crossorigin="anonymous"></script>
+  <script src="js/doodle.js"></script>
+</body>
+</html>
